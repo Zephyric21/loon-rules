@@ -41,3 +41,8 @@ DOMAIN,bbjhgehjvhbvg.ctydoh.cn
 DOMAIN,gkhbehbduhbdi.ctydoh.cn
 DOMAIN,seeds-open.xinqiucc.com
 DOMAIN,tos-mya2lq.vodupload.com
+
+# Exact endpoints observed falling through to the proxy on 2026-10-20
+DOMAIN,ecom5-normal-hl.ecombdapi.com
+DOMAIN,ecom-normal-m.ecombdapi.com
+DOMAIN,api5-hl.qishui.com
