@@ -1,0 +1,37 @@
+# NAME: Douyin DIRECT
+# UPDATED: 2026-10-20
+# Set policy=DIRECT when adding this Loon remote rule.
+# Core domains plus exact additional hosts observed in App Privacy Report / Loon.
+# Covers observed app context, including third-party SDK hosts; no generic parent expansion.
+# Fake IPs, private addresses and uncorrelated IP ranges are deliberately excluded.
+
+DOMAIN,lf3-static.bytednsdoc.com
+DOMAIN,v5-dy-o-abtest.zjcdn.com
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,idouyinvod.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,ixiguavideo.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN,pitaya.bytedance.com
+
+# Additional observed exact hosts
+DOMAIN,cf-gl.qiezibenpao.com
+DOMAIN,coelacanth.yingt.fun
+DOMAIN,msv6.wosms.cn
+DOMAIN,orzonera.yingt.fun
+DOMAIN,sd-gl.xinqiucc.com
+DOMAIN,sdktt.data.tianwenca.com
+DOMAIN,tnc0-aliec2.zijieapi.com
+DOMAIN,tnc0-alisc1.zijieapi.com
+DOMAIN,ttxyajs.data.kuiniuca.com
+DOMAIN,v5-dy-ov-experiment.zjcdn.com
+DOMAIN,v5-hl-mly-ov.zjcdn.com
+DOMAIN,v9-default.tt.x.bsgslb.cn
+DOMAIN,vc-brain-http.ndcpp.com
