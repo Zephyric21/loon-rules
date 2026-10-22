@@ -1,0 +1,126 @@
+#!name=WeChat QQ 国内直连与加密 DNS
+#!desc=微信与QQ实际观察域名直连并使用阿里DoH；排除Apple，不改默认DNS、节点、证书。
+#!author=Zephyric21
+#!date=2026-10-22
+
+[Rule]
+DOMAIN,235997776ce665465b6c1127f39e3fef.dlied1.cdntips.net,DIRECT
+DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net,DIRECT
+DOMAIN,api.wisapp.cn,DIRECT
+DOMAIN,appcfg.v.qq.com,DIRECT
+DOMAIN,astrategy.beacon.qq.com,DIRECT
+DOMAIN,cdnimg.3g.qq.com,DIRECT
+DOMAIN,cloud.tgpa.qq.com,DIRECT
+DOMAIN,configsvr.msf.3g.qq.com,DIRECT
+DOMAIN,data.ab.qq.com,DIRECT
+DOMAIN,dldir1.qq.com,DIRECT
+DOMAIN,dldir1v6.qq.com,DIRECT
+DOMAIN,e.qq.com,DIRECT
+DOMAIN,enrichgw.10010.com,DIRECT
+DOMAIN,findercsy.video.qq.com,DIRECT
+DOMAIN,findermp.video.qq.com,DIRECT
+DOMAIN,gatherer.m.qq.com,DIRECT
+DOMAIN,gdt.qq.com,DIRECT
+DOMAIN,i.gtimg.cn,DIRECT
+DOMAIN,id6.me,DIRECT
+DOMAIN,imgcache.qq.com,DIRECT
+DOMAIN,iosqqdata.ab.qq.com,DIRECT
+DOMAIN,liteappcdn.wechatpay.cn,DIRECT
+DOMAIN,longcloud.weixin.com,DIRECT
+DOMAIN,mmbiz.qpic.cn,DIRECT
+DOMAIN,mmecoa.qpic.cn,DIRECT
+DOMAIN,multimedia.nt.qq.com.cn,DIRECT
+DOMAIN,oth.eve.mdt.qq.com,DIRECT
+DOMAIN,paydns.weixin.qq.com,DIRECT
+DOMAIN,prewxacode.wxqcloud.qq.com.cn,DIRECT
+DOMAIN,rdelivery.qq.com,DIRECT
+DOMAIN,report-online.sh.wxgateway.com,DIRECT
+DOMAIN,rmonitor.qq.com,DIRECT
+DOMAIN,s6-xunke.cdn.ixunke.cn,DIRECT
+DOMAIN,sdkconfig.video.qq.com,DIRECT
+DOMAIN,snowflake.qq.com,DIRECT
+DOMAIN,sq.bls.mdt.qq.com,DIRECT
+DOMAIN,szextshort.weixin.qq.com,DIRECT
+DOMAIN,szilinkshort.weixin.com,DIRECT
+DOMAIN,szlong.weixin.qq.com,DIRECT
+DOMAIN,szminorshort.weixin.qq.com,DIRECT
+DOMAIN,szshort.mixpay.wechatpay.cn,DIRECT
+DOMAIN,szshort.pay.weixin.qq.com,DIRECT
+DOMAIN,szshort.weixin.qq.com,DIRECT
+DOMAIN,szsupport.weixin.qq.com,DIRECT
+DOMAIN,tdid.m.qq.com,DIRECT
+DOMAIN,tdid4.tencenttds.com,DIRECT
+DOMAIN,tencent.wosms.cn,DIRECT
+DOMAIN,tianquan.gtimg.cn,DIRECT
+DOMAIN,tpstelemetry.tencent.com,DIRECT
+DOMAIN,trace.qq.com,DIRECT
+DOMAIN,tux.qq.com,DIRECT
+DOMAIN,vv.video.qq.com,DIRECT
+DOMAIN,wa.qq.com,DIRECT
+DOMAIN,wetelemetry.weixin.qq.com,DIRECT
+DOMAIN,wework.qpic.cn,DIRECT
+DOMAIN,wuji.video.qq.com,DIRECT
+DOMAIN,wup.imtt.qq.com,DIRECT
+DOMAIN,wx.qlogo.cn,DIRECT
+DOMAIN,y.gtimg.cn,DIRECT
+
+[Host]
+235997776ce665465b6c1127f39e3fef.dlied1.cdntips.net = server:https://dns.alidns.com/dns-query
+apd-pcdnwxstat.teg.tencent-cloud.net = server:https://dns.alidns.com/dns-query
+api.wisapp.cn = server:https://dns.alidns.com/dns-query
+appcfg.v.qq.com = server:https://dns.alidns.com/dns-query
+astrategy.beacon.qq.com = server:https://dns.alidns.com/dns-query
+cdnimg.3g.qq.com = server:https://dns.alidns.com/dns-query
+cloud.tgpa.qq.com = server:https://dns.alidns.com/dns-query
+configsvr.msf.3g.qq.com = server:https://dns.alidns.com/dns-query
+data.ab.qq.com = server:https://dns.alidns.com/dns-query
+dldir1.qq.com = server:https://dns.alidns.com/dns-query
+dldir1v6.qq.com = server:https://dns.alidns.com/dns-query
+e.qq.com = server:https://dns.alidns.com/dns-query
+enrichgw.10010.com = server:https://dns.alidns.com/dns-query
+findercsy.video.qq.com = server:https://dns.alidns.com/dns-query
+findermp.video.qq.com = server:https://dns.alidns.com/dns-query
+gatherer.m.qq.com = server:https://dns.alidns.com/dns-query
+gdt.qq.com = server:https://dns.alidns.com/dns-query
+i.gtimg.cn = server:https://dns.alidns.com/dns-query
+id6.me = server:https://dns.alidns.com/dns-query
+imgcache.qq.com = server:https://dns.alidns.com/dns-query
+iosqqdata.ab.qq.com = server:https://dns.alidns.com/dns-query
+liteappcdn.wechatpay.cn = server:https://dns.alidns.com/dns-query
+longcloud.weixin.com = server:https://dns.alidns.com/dns-query
+mmbiz.qpic.cn = server:https://dns.alidns.com/dns-query
+mmecoa.qpic.cn = server:https://dns.alidns.com/dns-query
+multimedia.nt.qq.com.cn = server:https://dns.alidns.com/dns-query
+oth.eve.mdt.qq.com = server:https://dns.alidns.com/dns-query
+paydns.weixin.qq.com = server:https://dns.alidns.com/dns-query
+prewxacode.wxqcloud.qq.com.cn = server:https://dns.alidns.com/dns-query
+rdelivery.qq.com = server:https://dns.alidns.com/dns-query
+report-online.sh.wxgateway.com = server:https://dns.alidns.com/dns-query
+rmonitor.qq.com = server:https://dns.alidns.com/dns-query
+s6-xunke.cdn.ixunke.cn = server:https://dns.alidns.com/dns-query
+sdkconfig.video.qq.com = server:https://dns.alidns.com/dns-query
+snowflake.qq.com = server:https://dns.alidns.com/dns-query
+sq.bls.mdt.qq.com = server:https://dns.alidns.com/dns-query
+szextshort.weixin.qq.com = server:https://dns.alidns.com/dns-query
+szilinkshort.weixin.com = server:https://dns.alidns.com/dns-query
+szlong.weixin.qq.com = server:https://dns.alidns.com/dns-query
+szminorshort.weixin.qq.com = server:https://dns.alidns.com/dns-query
+szshort.mixpay.wechatpay.cn = server:https://dns.alidns.com/dns-query
+szshort.pay.weixin.qq.com = server:https://dns.alidns.com/dns-query
+szshort.weixin.qq.com = server:https://dns.alidns.com/dns-query
+szsupport.weixin.qq.com = server:https://dns.alidns.com/dns-query
+tdid.m.qq.com = server:https://dns.alidns.com/dns-query
+tdid4.tencenttds.com = server:https://dns.alidns.com/dns-query
+tencent.wosms.cn = server:https://dns.alidns.com/dns-query
+tianquan.gtimg.cn = server:https://dns.alidns.com/dns-query
+tpstelemetry.tencent.com = server:https://dns.alidns.com/dns-query
+trace.qq.com = server:https://dns.alidns.com/dns-query
+tux.qq.com = server:https://dns.alidns.com/dns-query
+vv.video.qq.com = server:https://dns.alidns.com/dns-query
+wa.qq.com = server:https://dns.alidns.com/dns-query
+wetelemetry.weixin.qq.com = server:https://dns.alidns.com/dns-query
+wework.qpic.cn = server:https://dns.alidns.com/dns-query
+wuji.video.qq.com = server:https://dns.alidns.com/dns-query
+wup.imtt.qq.com = server:https://dns.alidns.com/dns-query
+wx.qlogo.cn = server:https://dns.alidns.com/dns-query
+y.gtimg.cn = server:https://dns.alidns.com/dns-query
