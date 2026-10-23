@@ -1,0 +1,14 @@
+#!name=不背单词 国内直连与加密 DNS
+#!desc=仅匹配实际观察到的 API、词包及音频域名，直连并使用阿里 DoH。
+#!author=Zephyric21
+#!date=2026-10-23
+
+[Rule]
+DOMAIN,api.beingfine.cn,DIRECT
+DOMAIN,audio.beingfine.cn,DIRECT
+DOMAIN,static.beingfine.cn,DIRECT
+
+[Host]
+api.beingfine.cn = server:https://dns.alidns.com/dns-query
+audio.beingfine.cn = server:https://dns.alidns.com/dns-query
+static.beingfine.cn = server:https://dns.alidns.com/dns-query
