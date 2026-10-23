@@ -119,3 +119,5 @@ https://raw.githubusercontent.com/Zephyric21/loon-rules/main/gsuidcore-cn.plugin
 普通聊天中粘贴的网址、文档/仓库链接、IP 检测端点、模板占位符及本地监听地址不加入直连清单；GitHub 和海外公共 CDN 沿用既有策略。原始日志、URL 路径/参数、Cookie、用户信息和个人配置不发布。国内解析指这些业务域名统一使用阿里 DoH，不是把全网 DNS 改为国内。已有本地 Host/Rule 可能优先于插件，需要检查覆盖关系；不要开关 VPN 清缓存。
 
 此次发现面板请求存在授权验证反复 TLS 超时、资源测速及排行失败。规则能修复已验证的域名解析/连接问题，不承诺解决插件的同步阻塞、失败重试或所有服务端故障。`ww1.loping151.top` 在指定解析 IP 的测试中仍发生超时，保留为代码中的资源候选，不宣称已恢复。
+
+当前发布清单共 39 个精确域名，阿里 HTTPS DNS 查询均返回非空 A 答案。模板中的 `prod-all-ali-kuro-landing.kurogame.com` 当次返回 NXDOMAIN，未纳入生效规则。`api.ttocr.com` 在源码中是 HTTP 验证接口，HTTPS 根路径测试出现证书校验失败，未放宽校验或操作证书；规则不代表该可选服务可用。

@@ -26,7 +26,6 @@ DOMAIN,newsimg.5054399.com,DIRECT
 DOMAIN,njc-download.ftn.qq.com,DIRECT
 DOMAIN,pc-launcher-sdk-api.kurogame.net,DIRECT
 DOMAIN,prod-alicdn-community.kurobbs.com,DIRECT
-DOMAIN,prod-all-ali-kuro-landing.kurogame.com,DIRECT
 DOMAIN,q.qlogo.cn,DIRECT
 DOMAIN,q1.qlogo.cn,DIRECT
 DOMAIN,scoreecho.loping151.site,DIRECT
@@ -68,7 +67,6 @@ newsimg.5054399.com = server:https://dns.alidns.com/dns-query
 njc-download.ftn.qq.com = server:https://dns.alidns.com/dns-query
 pc-launcher-sdk-api.kurogame.net = server:https://dns.alidns.com/dns-query
 prod-alicdn-community.kurobbs.com = server:https://dns.alidns.com/dns-query
-prod-all-ali-kuro-landing.kurogame.com = server:https://dns.alidns.com/dns-query
 q.qlogo.cn = server:https://dns.alidns.com/dns-query
 q1.qlogo.cn = server:https://dns.alidns.com/dns-query
 scoreecho.loping151.site = server:https://dns.alidns.com/dns-query

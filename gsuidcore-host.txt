@@ -21,7 +21,6 @@ newsimg.5054399.com = server:https://dns.alidns.com/dns-query
 njc-download.ftn.qq.com = server:https://dns.alidns.com/dns-query
 pc-launcher-sdk-api.kurogame.net = server:https://dns.alidns.com/dns-query
 prod-alicdn-community.kurobbs.com = server:https://dns.alidns.com/dns-query
-prod-all-ali-kuro-landing.kurogame.com = server:https://dns.alidns.com/dns-query
 q.qlogo.cn = server:https://dns.alidns.com/dns-query
 q1.qlogo.cn = server:https://dns.alidns.com/dns-query
 scoreecho.loping151.site = server:https://dns.alidns.com/dns-query
