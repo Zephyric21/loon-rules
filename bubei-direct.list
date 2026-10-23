@@ -2,4 +2,5 @@
 # 此清单仅分流；DNS 请使用 bubei-cn.plugin
 DOMAIN,api.beingfine.cn
 DOMAIN,audio.beingfine.cn
+DOMAIN,hwstatic.beingfine.cn
 DOMAIN,static.beingfine.cn

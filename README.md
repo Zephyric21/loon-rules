@@ -8,7 +8,7 @@
 https://raw.githubusercontent.com/Zephyric21/loon-rules/main/bubei-cn.plugin
 ```
 
-仅为实际观察到的 `api.beingfine.cn`、`static.beingfine.cn`、`audio.beingfine.cn` 设置 DIRECT 与阿里 DoH。依据为 iPhone Loon 请求与 DNS 记录，隐私报告列表未找到本 App，因此不声称来源为隐私报告。排除 Apple 及无关域名，不放行整个 CDN 后缀，不固定 IP，不修改默认 DNS、节点或证书。仅代表当次业务域名快照，不保证覆盖全部功能或修复所有卡顿。
+仅为实际观察到的 `api.beingfine.cn`、`static.beingfine.cn`、`audio.beingfine.cn`、`hwstatic.beingfine.cn` 设置 DIRECT 与阿里 DoH。依据为 iPhone Loon 请求与 DNS 记录，隐私报告列表未找到本 App，因此不声称来源为隐私报告。排除 Apple 及无关域名，不放行整个 CDN 后缀，不固定 IP，不修改默认 DNS、节点或证书。仅代表当次业务域名快照，不保证覆盖全部功能或修复所有卡顿。
 
 只需分流时使用 `bubei-direct.list`，在远程规则中选择 DIRECT；它不包含 DNS 设置。原始 URL、请求时间、次数、用户数据和个人配置不上传。
 

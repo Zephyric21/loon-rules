@@ -6,9 +6,11 @@
 [Rule]
 DOMAIN,api.beingfine.cn,DIRECT
 DOMAIN,audio.beingfine.cn,DIRECT
+DOMAIN,hwstatic.beingfine.cn,DIRECT
 DOMAIN,static.beingfine.cn,DIRECT
 
 [Host]
 api.beingfine.cn = server:https://dns.alidns.com/dns-query
 audio.beingfine.cn = server:https://dns.alidns.com/dns-query
+hwstatic.beingfine.cn = server:https://dns.alidns.com/dns-query
 static.beingfine.cn = server:https://dns.alidns.com/dns-query
