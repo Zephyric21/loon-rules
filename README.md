@@ -103,3 +103,19 @@ AstrBot `astrbot_plugin_parser` 解析/下载视频与图集常用域名规则�
 ```text
 https://raw.githubusercontent.com/FuRina-AI/loon-rules/main/astrbot-video-parser.plugin
 ```
+
+## GSUIDCORE / 鸣潮 / ScoreEcho
+
+Loon 插件订阅（DIRECT + 阿里加密 DNS，两台 Mac 可共用）：
+
+```text
+https://raw.githubusercontent.com/Zephyric21/loon-rules/main/gsuidcore-cn.plugin
+```
+
+仅分流时使用 `gsuidcore-direct.list`，远程规则策略选 DIRECT；DNS 合并片段为 `gsuidcore-host.txt`。完整插件和分流清单按用途选择，DNS 不能通过流量清单生效。
+
+域名来自 2026-10-23 MacBook 运行容器的 XutheringWavesUID、RoverSign、ScoreEcho 源码、页面依赖及当前/既有日志。包括源码中的备用业务端点，不代表每个端点均在当日发出请求。仅匹配完整主机名，不扩大父域，不固定 CDN IP，不改变默认 DNS、系统 DNS、明文回落、节点、FINAL 或 MITM。
+
+普通聊天中粘贴的网址、文档/仓库链接、IP 检测端点、模板占位符及本地监听地址不加入直连清单；GitHub 和海外公共 CDN 沿用既有策略。原始日志、URL 路径/参数、Cookie、用户信息和个人配置不发布。国内解析指这些业务域名统一使用阿里 DoH，不是把全网 DNS 改为国内。已有本地 Host/Rule 可能优先于插件，需要检查覆盖关系；不要开关 VPN 清缓存。
+
+此次发现面板请求存在授权验证反复 TLS 超时、资源测速及排行失败。规则能修复已验证的域名解析/连接问题，不承诺解决插件的同步阻塞、失败重试或所有服务端故障。`ww1.loping151.top` 在指定解析 IP 的测试中仍发生超时，保留为代码中的资源候选，不宣称已恢复。

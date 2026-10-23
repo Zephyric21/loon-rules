@@ -1,0 +1,88 @@
+#!name=GSUIDCORE 国内直连与加密 DNS
+#!desc=鸣潮、声骸、资源镜像、头像及页面依赖的精确域名，DIRECT 与阿里 DoH；不改变默认 DNS。
+#!author=Zephyric21
+#!date=2026-10-23
+
+[Rule]
+DOMAIN,api.kurobbs.com,DIRECT
+DOMAIN,api.ttocr.com,DIRECT
+DOMAIN,api.xiaoheihe.cn,DIRECT
+DOMAIN,api3.sanyueqi.cn,DIRECT
+DOMAIN,cdn.staticfile.org,DIRECT
+DOMAIN,cnb.cool,DIRECT
+DOMAIN,event.kurobbs.com,DIRECT
+DOMAIN,fonts.loli.net,DIRECT
+DOMAIN,ga.loping151.site,DIRECT
+DOMAIN,gchat.qpic.cn,DIRECT
+DOMAIN,gmserver-api.aki-game2.com,DIRECT
+DOMAIN,gmserver-api.aki-game2.net,DIRECT
+DOMAIN,gxh.vip.qq.com,DIRECT
+DOMAIN,hf-mirror.com,DIRECT
+DOMAIN,hkc-download.ftn.qq.com,DIRECT
+DOMAIN,lib.baomitu.com,DIRECT
+DOMAIN,lulush.microgg.cn,DIRECT
+DOMAIN,multimedia.nt.qq.com.cn,DIRECT
+DOMAIN,newsimg.5054399.com,DIRECT
+DOMAIN,njc-download.ftn.qq.com,DIRECT
+DOMAIN,pc-launcher-sdk-api.kurogame.net,DIRECT
+DOMAIN,prod-alicdn-community.kurobbs.com,DIRECT
+DOMAIN,prod-all-ali-kuro-landing.kurogame.com,DIRECT
+DOMAIN,q.qlogo.cn,DIRECT
+DOMAIN,q1.qlogo.cn,DIRECT
+DOMAIN,scoreecho.loping151.site,DIRECT
+DOMAIN,sdkapi.kurogame-service.com,DIRECT
+DOMAIN,silverwing.elysia.beauty,DIRECT
+DOMAIN,static.geetest.com,DIRECT
+DOMAIN,static.geevisit.com,DIRECT
+DOMAIN,tjc-download.ftn.qq.com,DIRECT
+DOMAIN,web-static.kurobbs.com,DIRECT
+DOMAIN,wh.loping151.site,DIRECT
+DOMAIN,ww1.loping151.top,DIRECT
+DOMAIN,ww2.loping151.top,DIRECT
+DOMAIN,ww3.loping151.cn,DIRECT
+DOMAIN,www.4399.com,DIRECT
+DOMAIN,www.kurobbs.com,DIRECT
+DOMAIN,www.loping151.site,DIRECT
+DOMAIN,xwservice.loping151.site,DIRECT
+
+[Host]
+api.kurobbs.com = server:https://dns.alidns.com/dns-query
+api.ttocr.com = server:https://dns.alidns.com/dns-query
+api.xiaoheihe.cn = server:https://dns.alidns.com/dns-query
+api3.sanyueqi.cn = server:https://dns.alidns.com/dns-query
+cdn.staticfile.org = server:https://dns.alidns.com/dns-query
+cnb.cool = server:https://dns.alidns.com/dns-query
+event.kurobbs.com = server:https://dns.alidns.com/dns-query
+fonts.loli.net = server:https://dns.alidns.com/dns-query
+ga.loping151.site = server:https://dns.alidns.com/dns-query
+gchat.qpic.cn = server:https://dns.alidns.com/dns-query
+gmserver-api.aki-game2.com = server:https://dns.alidns.com/dns-query
+gmserver-api.aki-game2.net = server:https://dns.alidns.com/dns-query
+gxh.vip.qq.com = server:https://dns.alidns.com/dns-query
+hf-mirror.com = server:https://dns.alidns.com/dns-query
+hkc-download.ftn.qq.com = server:https://dns.alidns.com/dns-query
+lib.baomitu.com = server:https://dns.alidns.com/dns-query
+lulush.microgg.cn = server:https://dns.alidns.com/dns-query
+multimedia.nt.qq.com.cn = server:https://dns.alidns.com/dns-query
+newsimg.5054399.com = server:https://dns.alidns.com/dns-query
+njc-download.ftn.qq.com = server:https://dns.alidns.com/dns-query
+pc-launcher-sdk-api.kurogame.net = server:https://dns.alidns.com/dns-query
+prod-alicdn-community.kurobbs.com = server:https://dns.alidns.com/dns-query
+prod-all-ali-kuro-landing.kurogame.com = server:https://dns.alidns.com/dns-query
+q.qlogo.cn = server:https://dns.alidns.com/dns-query
+q1.qlogo.cn = server:https://dns.alidns.com/dns-query
+scoreecho.loping151.site = server:https://dns.alidns.com/dns-query
+sdkapi.kurogame-service.com = server:https://dns.alidns.com/dns-query
+silverwing.elysia.beauty = server:https://dns.alidns.com/dns-query
+static.geetest.com = server:https://dns.alidns.com/dns-query
+static.geevisit.com = server:https://dns.alidns.com/dns-query
+tjc-download.ftn.qq.com = server:https://dns.alidns.com/dns-query
+web-static.kurobbs.com = server:https://dns.alidns.com/dns-query
+wh.loping151.site = server:https://dns.alidns.com/dns-query
+ww1.loping151.top = server:https://dns.alidns.com/dns-query
+ww2.loping151.top = server:https://dns.alidns.com/dns-query
+ww3.loping151.cn = server:https://dns.alidns.com/dns-query
+www.4399.com = server:https://dns.alidns.com/dns-query
+www.kurobbs.com = server:https://dns.alidns.com/dns-query
+www.loping151.site = server:https://dns.alidns.com/dns-query
+xwservice.loping151.site = server:https://dns.alidns.com/dns-query
